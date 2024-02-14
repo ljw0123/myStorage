@@ -21,3 +21,18 @@
  2-1. 로컬에서 브랜치 만들어 원격에 push 해보기
     from-local 브랜치 만들기
     from-local 로 브랜치 이동
+ 2-2. 원격의 브랜치 로컬에 받아오기
+    -github에서 from-remote 브랜치 만들기
+ 2-3. 원격의 변경사항 확인
+  git fetch
+ 2-4. 로컬에 같은 이름의 브랜치를 생성하여 연결하고 switch
+
+ 3. 신규 repository 생성
+  - git-another-test
+
+ 4. DB
+  4-1. git DB의 특징
+   - .git -> git의 DB가 들어있는 디렉터리
+   - git DB는 네트워크 없이도 동작한다.
+   - 일반적으로 DB라면 CRUD기능을 가지고 있지만 , git DB는 UD가 빠져있다. CR인 insert 와 select 밖에 없다.
+   - key-value : 키를 통해 값에 접근하는 방식으로, 이 방식을 사용한다면 키를 만드는 방식이 중요하다.
