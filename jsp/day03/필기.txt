@@ -54,3 +54,9 @@
     <session-config>
           <session-timeout>30</session-timeout>
     </session-config>
+
+  - 세션값 삭제
+    -> session.removeAttribute("key");
+    -> session.removeAttribute("user_id");
+    //세션 전체 제거
+    -> session.invalidate();
